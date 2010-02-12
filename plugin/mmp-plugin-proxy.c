@@ -70,7 +70,7 @@ static gboolean
 mmp_plugin_proxy_load_module (gchar *prefix)
 {
 	MoonlightPlugin *plugin_host = MMP_HANDLE ();
-	gchar *path = g_module_build_path (prefix, "moonloader");
+	gchar *path = g_module_build_path (prefix, "moonloaderxpi");
 	
 	if (g_file_test (path, G_FILE_TEST_EXISTS)) {
 		plugin_host->module = g_module_open (path, G_MODULE_BIND_LOCAL | G_MODULE_BIND_LAZY);
