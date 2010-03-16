@@ -1,0 +1,13 @@
+<!ENTITY moonshine.fileMenuLabel "Plik">
+<!ENTITY moonshine.fileOpenLabel "Otwórz plik">
+<!ENTITY moonshine.fileQuitLabel "Zakończ">
+
+<!ENTITY moonshine.viewMenuLabel "Widok">
+<!ENTITY moonshine.viewFullscreenLabel "Pełny ekran">
+
+<!ENTITY moonshine.helpMenuLabel "Pomoc">
+<!ENTITY moonshine.helpAboutLabel "Informacje o">
+
+<!ENTITY moonshine.uninstalledTitle "Moonlight nie jest zainstalowany">
+<!ENTITY moonshine.uninstalledMessage "Nie można znaleźć wtyczki Moonlight. Na tą chwilę nie może być ona zainstalowana w formacie XPI, lecz w systemowym położeniu dla wtyczek.">
+

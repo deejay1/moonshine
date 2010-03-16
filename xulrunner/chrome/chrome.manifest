@@ -1,3 +1,4 @@
 content	moonshine content/
 skin moonshine default skin/
 locale moonshine en-US locale/en-US/
+locale moonshine pl-PL locale/pl-PL/

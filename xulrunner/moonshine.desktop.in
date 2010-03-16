@@ -1,7 +1,9 @@
 [Desktop Entry]
 GenericName=WMV Player
+GenericName[pl]=Odtwarzacz plików WMV
 Name=Moonshine
 Comment=Standalone player for Windows Media content
+Comment[pl]=Samodzielny odtwarzacz dla plików Windows Media
 Exec=moonshine %U
 Icon=moonshine
 Terminal=false
