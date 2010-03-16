@@ -148,8 +148,8 @@ mmp_script_evaluate (NPP npp, const gchar *code)
 	g_return_val_if_fail (NPN_GetValue (npp, NPNVWindowNPObject, 
 		&host) == NPERR_NO_ERROR, FALSE);
 
-	string.utf8characters = code;
-	string.utf8length = strlen (code);
+	string.UTF8Characters = code;
+	string.UTF8Length = strlen (code);
 
 	if ((result = NPN_Evaluate (npp, host, &string, &output))) {
 		NPN_ReleaseVariantValue (&output);
